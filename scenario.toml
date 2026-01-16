@@ -8,3 +8,5 @@ agentbeats_id = "019bc4a3-5941-7073-882e-28b43f4e67cf"
 env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
 
 [config]
+domain = "blocks"
+index = 1

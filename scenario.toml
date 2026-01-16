@@ -1,16 +1,11 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+agentbeats_id = "019bc49d-f715-7170-bcc0-e4de98258451"
+env = { LOG_LEVEL = "INFO" } 
 
 [[participants]]
-agentbeats_id = ""
-name = "role_1_name"
-env = {}
-
-[[participants]]
-agentbeats_id = ""
-name = "role_2_name"
-env = {}
+name = "planner"
+agentbeats_id = "019bc4a3-5941-7073-882e-28b43f4e67cf" # Your Purple Agent ID
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" } 
 
 [config]
-# Add your assessment config here
+# Keep empty to trigger the full autonomous suite

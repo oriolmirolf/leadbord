@@ -8,4 +8,3 @@ agentbeats_id = "019bc4a3-5941-7073-882e-28b43f4e67cf" # Your Purple Agent ID
 env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" } 
 
 [config]
-# Keep empty to trigger the full autonomous suite

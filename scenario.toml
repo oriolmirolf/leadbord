@@ -1,10 +1,10 @@
 [green_agent]
 agentbeats_id = "019bc49d-f715-7170-bcc0-e4de98258451"
-env = { LOG_LEVEL = "INFO" } 
+env = { LOG_LEVEL = "INFO" }
 
 [[participants]]
 name = "planner"
-agentbeats_id = "019bc4a3-5941-7073-882e-28b43f4e67cf" # Your Purple Agent ID
-env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" } 
+agentbeats_id = "019bc4a3-5941-7073-882e-28b43f4e67cf"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
 
 [config]
